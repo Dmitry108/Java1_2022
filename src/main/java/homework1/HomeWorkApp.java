@@ -49,14 +49,14 @@ public class HomeWorkApp {
                 a + b >= 0 ? "положительная" : "отрицательная");
     }
 
-    public final void printColor() {
-        int value = this.getNumber(300, 100);
+    public void printColor() {
+        int value = getNumber(300, 100);
         System.out.printf("%d %s\n", value,
                 value <= 0 ? "Красный" :
                         value <= 100 ? "Желтый" : "Зеленый");
     }
 
-    public final void compareNumbers() {
+    public void compareNumbers() {
         int a = getNumber(100);
         int b = getNumber(100);
         System.out.printf("a = %d b = %d\na %s b", a, b,
