@@ -32,8 +32,8 @@ public class HomeworkApp {
      * от 10 до 20 (включительно), если да – вернуть true, в противном случае – false.
      */
     public boolean isSumBetweenTenAndTwenty(int num1, int num2) {
-        int sum = num1 + num2;
-        return sum >= 10 && sum <= 20;
+//        int sum = num1 + num2;
+        return (num1 += num2) >= 10 && num1 <= 20;
     }
 
     /**
